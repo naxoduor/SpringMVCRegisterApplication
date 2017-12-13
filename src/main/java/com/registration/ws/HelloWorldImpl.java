@@ -11,7 +11,7 @@ package com.registration.ws;
  */
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.mkyong.ws.HelloWorld")
+@WebService(endpointInterface = "com.registration.ws.HelloWorld")
 public class HelloWorldImpl implements HelloWorld {
     
     @Override
